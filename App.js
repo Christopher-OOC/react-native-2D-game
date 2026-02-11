@@ -9,7 +9,7 @@ import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
 
 export default function App() {
-  const [userNumber, setUserNumber] = useState();
+  const [userNumber, setUserNumber] = useState('');
   const [gameIsOver, setGameIsOver] = useState(true);
   const [guessRounds, setGuessRounds] = useState(0);
 
